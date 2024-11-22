@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Examples</title>
+  <style>
+    /* Static Position (Default) */
+    .static {
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    /* Relative Position */
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    /* Absolute Position */
+    .absolute {
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+
+    /* Fixed Position */
+    .fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: salmon;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="static">Static Position (Default)</div><br><br>
+  <div class="relative">Relative Position</div><br><br>
+  <div class="absolute">Absolute Position</div><br><br>
+  <div style="height: 1000px;">Scroll to see the Fixed and Sticky Positions.</div><br><br>
+  <div class="fixed">Fixed Position</div><br><br>
+</body>
+</html>

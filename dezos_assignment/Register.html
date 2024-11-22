@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>register</title>
+        <style>
+           /* General Styling */
+             body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+    
+            /* Form Container */
+            form {
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                max-width: 400px;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+    
+            /* Form Elements */
+            form label {
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 5px;
+                display: block;
+            }
+    
+            form input[type="text"], 
+            form input[type="password"] {
+                width: calc(100% - 20px);
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+
+            .form, .register {
+                  background-color: transparent;
+                  
+                }
+            form button.register {
+                background-color: #1877F2; /* Facebook blue */
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-top: 10px;
+                
+            }
+
+    
+            form button {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                background-color: #4CAF50;
+                border: none;
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+    
+            form button:hover {
+                background-color: #4CAF50;
+            }
+    
+            /* Links inside Buttons */
+            form button a {
+                color: white;
+                text-decoration: none;
+                
+            }
+    
+            form button a:hover {
+                text-decoration: none;
+            }
+            .red{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                background-color: #4CAF50;
+                border: none;
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <form target="_top" autocomplete="on">
+            <label>enter your number</label><br>
+            <input type="text" placeholder="enter your id" name="user_id" required><br><br>
+            <label>enter your password</label><br>
+            <input type="password" required><br><br>
+            <label>Confirm password</label><br>
+            <input type="password" required><br><br>
+            <input type="submit" class="red">
+        </form>
+    </body>
+</html>
